@@ -24,17 +24,17 @@
                                         ); ?>" media="(max-width: 991px)">
                                 <source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                         data-srcset="<?php echo Pi::api('doc', 'media')->getSingleLinkUrl($story['main_image'])->setConfigModule('news')->thumb(
-                                            270, 270
+                                            580, 580
                                         ); ?>" media="(max-width: 1366px)">
                                 <source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                         data-srcset="<?php echo Pi::api('doc', 'media')->getSingleLinkUrl($story['main_image'])->setConfigModule('news')->thumb(
-                                            290, 290
+                                            580, 580
                                         ); ?>" media="(max-width: 2800px)">
 
                                 <img itemprop="image" class="img-fluid lazyload"
                                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mP8/58BCBghFAAj/wP/DcJIqAAAAABJRU5ErkJggg=="
                                      data-src="<?php echo Pi::api('doc', 'media')->getSingleLinkUrl($story['main_image'])->setConfigModule('news')->thumb(
-                                         'medium'
+                                         'large'
                                      ); ?>"
                                      alt="<?php echo $this->escape($story['title']); ?>"/>
                             </picture>
