@@ -147,6 +147,7 @@ class Breadcrumbs extends AbstractBreadcrumbs
                             // Set link
                             $result[] = [
                                 'label' => $topic['title'],
+                                'href'  => Pi::url($topicSingle['url']),
                             ];
                         } else {
                             $result[] = [
