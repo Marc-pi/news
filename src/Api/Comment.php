@@ -89,4 +89,9 @@ class Comment extends AbstractComment
         ];
     }
 
+    public function getImage($item)
+    {
+
+    }
+
 }
